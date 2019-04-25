@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.stmikwp.pointingapp"
+    versionCode = "10"
+    version     = "1.0.0" >
+ 
+<!-- versionCode is optional and Android only -->
+ 
+  <name>Profil App</name>
+ 
+  <description>
+      Ini merupakan contoh web aplikasi sederhana
+  </description>
+ 
+  <author href="https://twitter.com/amahayati12" email="[email protected]">
+     Ardhia
+  </author>
+  
+  <plugin name="cordova-plugin-inappbrowser" />
+  <plugin name="cordova-plugin-whitelist" version="1" />
+    
+  <access origin="*" />
+  <allow-intent href="https://*/*" />
+  <allow-navigation href="https://*/*" />
+  
+</widget>
